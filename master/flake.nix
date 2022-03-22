@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-snail-master.flake = false;
+  inputs.src-snail-master.ref   = "refs/heads/master";
   inputs.src-snail-master.owner = "stisa";
-  inputs.src-snail-master.ref   = "master";
   inputs.src-snail-master.repo  = "snail";
   inputs.src-snail-master.type  = "github";
   
