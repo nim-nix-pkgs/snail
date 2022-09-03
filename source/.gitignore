@@ -1,0 +1,11 @@
+nimcache/
+.vscode/
+*.exe
+private/*.exe
+*.txt
+bench.nim
+*.log
+*.js
+*.html
+!docs/*.html
+experiments
